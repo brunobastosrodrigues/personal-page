@@ -17,7 +17,7 @@ Education
 
 Academic Positions
 ==================
-* Assistant Professor, Embedded Sensing Systems, University of St. Gallen (HSG), 2023–present
+* Tenure-track Assistant Professor, Embedded Sensing Systems, University of St. Gallen (HSG), 2023–present
 * External Lecturer, Ostschweizer Fachhochschule (OST), Rapperswil, 2023–2023
 * Senior Researcher, University of Zürich, 2020–2023
 * Junior Researcher, University of Zürich, 2016–2020
