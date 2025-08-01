@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor of Embedded Sensing Systems at the Institute of Computer Science in Vorarlberg (ICV), University of St. Gallen (HSG).
+I am an Assistant Professor of Embedded Sensing Systems at the Institute of Computer Science in Vorarlberg (ICV), University of St. Gallen (HSG). My research and teaching cover real-world sensing, IoT, wireless sensor networks, and network security, bridging theoretical models with practical systems.
 
-My research and teaching cover real-world sensing, IoT, wireless sensor networks, and network security, bridging theoretical models with practical systems.
+
