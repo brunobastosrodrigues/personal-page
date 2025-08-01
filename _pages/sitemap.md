@@ -7,31 +7,25 @@ author_profile: true
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+A list of all main sections on this site. For robots, an [XML version]({{ base_path }}/sitemap.xml) is available.
 
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign nav = site.data.navigation %}
 
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% capture written_label %}'None'{% endcapture %}
-
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
+<ul>
+{% for item in nav %}
+  {% if item.url %}
+    <li>
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% if item.children %}
+        <ul>
+        {% for child in item.children %}
+          <li>
+            <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
   {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
 {% endfor %}
-{% endfor %}
+</ul>
