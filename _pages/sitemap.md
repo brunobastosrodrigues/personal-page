@@ -9,7 +9,7 @@ author_profile: true
 
 A list of all main sections on this site. For robots, an [XML version]({{ base_path }}/sitemap.xml) is available.
 
-{% assign nav = site.data.navigation %}
+{% assign nav = site.data.navigation.main %}
 
 <ul>
 {% for item in nav %}
