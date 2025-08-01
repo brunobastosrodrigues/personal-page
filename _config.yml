@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Welcome"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Bruno Rodrigues"
 description              : &description "Assistant Professor of Embedded Sensing Systems at the Institute of Computer Science, Vorarlberg (ICV), University of St. Gallen (HSG)."
