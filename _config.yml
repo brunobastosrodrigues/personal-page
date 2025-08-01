@@ -22,7 +22,7 @@ repository               : "brunobastosrodrigues/brunobastosrodrigues.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "bio-photo3.jpg"
   name             : "Bruno Rodrigues"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor of Embedded Sensing Systems at the University of St. Gallen (HSG), with a PhD in Informatics from the University of Zürich. Research focuses on sensing, IoT, and network security, bridging theory and practice in real-world applications."
