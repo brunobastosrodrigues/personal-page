@@ -3,7 +3,7 @@ title: "Fundamentals of Computer Science"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-hsg-fundamentals-cs
-venue: "University of St. Gallen (HSG), Bachelor in International Affairs"
+venue: "University of St. Gallen (HSG), Bachelor in International Affairs (BIA)"
 date: 2025-02-15
 location: "St. Gallen, Switzerland"
 ---

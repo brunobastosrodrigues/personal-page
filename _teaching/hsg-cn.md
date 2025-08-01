@@ -3,7 +3,7 @@ title: "Computer Networks"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-hsg-computer-networks
-venue: "University of St. Gallen (HSG), Research Group for Interaction- and Communication-based Systems"
+venue: "University of St. Gallen (HSG), Bachelor in Computer Science (BCS)"
 date: 2025-02-15
 location: "St. Gallen, Switzerland"
 ---
