@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-A list of all main sections on this site. For robots, an [XML version]({{ base_path }}/sitemap.xml) is available.
+A list of all main sections on this site. 
 
 {% assign nav = site.data.navigation.main %}
 
