@@ -25,8 +25,8 @@ author:
   avatar           : "bio-photo3.jpg"
   name             : "Bruno Rodrigues"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor of Embedded Sensing Systems at the University of St. Gallen (HSG)"
-  location         : "St. Gallen/Dornbirn"
+  bio              : "Making sense of sensors, a paper (and coffee) at a time."
+  location         : "St. Gallen (CH) / Dornbirn (AT)"
   employer         : "University of St. Gallen (HSG)"
   uri              : # URL
   email            : "bruno.rodrigues@unisg.ch" 
