@@ -20,12 +20,12 @@ redirect_from:
 
 
 ### Academic Positions
-* Tenure-track Assistant Professor, Embedded Sensing Systems, University of St. Gallen (HSG), 2023–present
-* External Lecturer, Ostschweizer Fachhochschule (OST), Rapperswil, 2023–2023
-* Senior Researcher, University of Zürich, 2020–2023
-* Junior Researcher, University of Zürich, 2016–2020
-* Junior Researcher, University of São Paulo, 2013–2016
+* Tenure-track Assistant Professor, University of St. Gallen, 2023–present. St. Gallen/SG, Switzerland.
+* External Lecturer, Ostschweizer Fachhochschule (OST), 2023–2023. Rapperswil-Jona/SG, Switzerland.
+* Senior Researcher, University of Zürich, 2020–2023. Zürich/ZH, Switzerland.
+* Junior Researcher, University of Zürich, 2016–2020. Zürich/ZH, Switzerland.
+* Junior Researcher, University of São Paulo, 2013–2016. São Paulo/SP, Brazil.
 
 ### Other Professional Experience
-* Junior Developer, Staff Informatica Ltda., 2013–2014
-* First-level IT Support, Public Ministry of Santa Catarina State, 2012–2013
+* Junior Developer, Staff Informatica Ltda., 2013–2014. Joinville/SC, Brazil.
+* First-level IT Support, Public Ministry of Santa Catarina State, 2012–2013. Joinville/SC, Brazil.
