@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 <br>
-**Empowering real-world systems through secure, privacy-aware sensing and network intelligence**
+*Empowering real-world systems through secure, privacy-aware sensing and network intelligence*
 <br>
 
 ### Affiliation
@@ -24,11 +24,11 @@ My research and teaching bridge theory and practice in IoT, wireless sensor netw
 </div>
 
 ### Short bio
-Before joining HSG, I received my doctoral degree from the University of Zurich in 2020 under the supervision of Prof. Dr. Burkhard Stiller, where I also worked as a postdoctoral researcher until 2024. My PhD work focused on collaborative signaling systems to counter Distributed Denial-of-Service (DDoS) attacks, while my postdoctoral research explored <a href="https://www.alexandria.unisg.ch/handle/20.500.14171/123223" target="_blank">passive tracking and tracing</a> using radio signals and assessing their impact on privacy.
+Before joining HSG, I received my doctoral degree from the University of Zurich in 2020 under the supervision of [Prof. Dr. Burkhard Stiller](https://www.csg.uzh.ch/en/staff/stiller.html), where I also worked as a postdoctoral researcher until 2024. My PhD work focused on collaborative signaling systems to counter Distributed Denial-of-Service (DDoS) attacks, while my postdoctoral research explored [passive tracking and tracing](https://www.alexandria.unisg.ch/handle/20.500.14171/123223) using radio signals and assessing their impact on privacy.
 
-Prior to my PhD, I worked as a research assistant at the University of São Paulo (USP), Brazil, under the supervision of Prof. Dr. Tereza Cristina. From 2013 to 2016, I participated in collaborative research projects between USP and Ericsson Research, resulting in several publications. Specifically, my MSc thesis focused on energy efficiency and management in software-defined networks and cloud environments.
+Prior to my PhD, I worked as a research assistant at the University of São Paulo (USP), Brazil, under the supervision of [Prof. Dr. Tereza Cristina Melo de Brito Carvalho](https://www.larc.usp.br/tereza-cristina-melo-de-brito-carvalho/). From 2013 to 2016, I participated in collaborative research projects between USP and Ericsson Research, resulting in several publications. Specifically, my MSc thesis focused on energy efficiency and management in software-defined networks and cloud environments.
 
-During my BSc at the University of the State of Santa Catarina (UDESC), I focused on cloud computing security and the analysis of large-scale distributed systems, under the supervision of Prof. Dr. Charles Miers.
+During my BSc at the University of the State of Santa Catarina (UDESC), I focused on cloud computing security and the analysis of large-scale distributed systems, under the supervision of [Prof. Dr. Charles Christian Miers](https://www.udesc.br/professor/charles.miers).
 
 
 
