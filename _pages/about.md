@@ -11,7 +11,7 @@ redirect_from:
 <br>
 
 ### Affiliation
-I am a **tenure-track Assistant Professor of Embedded Sensing Systems** at the  
+I am a **tenure-track Assistant Professor for Embedded Sensing Systems and Industrial Networks** at the  
 [Institute of Computer Science in Vorarlberg (ICV)](https://icv.unisg.ch/), [School of Computer Science (SCS)](https://www.unisg.ch/de/universitaet/schools/computer-science/), 
 [University of St. Gallen (HSG)](https://www.unisg.ch/en/), Switzerland.
 
