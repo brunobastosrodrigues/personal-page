@@ -12,8 +12,8 @@ redirect_from:
 
 ### Affiliation
 I am a **tenure-track Assistant Professor of Embedded Sensing Systems** at the  
-<a href="https://icv.unisg.ch/" target="_blank">Institute of Computer Science in Vorarlberg (ICV)</a>, <a href="https://www.unisg.ch/de/universitaet/schools/computer-science/" target="_blank">School of Computer Science (SCS)</a>,  
-University of St. Gallen (HSG), Switzerland.
+[Institute of Computer Science in Vorarlberg (ICV)](https://icv.unisg.ch/), [School of Computer Science (SCS)](https://www.unisg.ch/de/universitaet/schools/computer-science/), 
+[University of St. Gallen (HSG)](https://www.unisg.ch/en/), Switzerland.
 
 ### Research Focus
 My research and teaching bridge theory and practice in IoT, wireless sensor networks, and network security—focusing on how we sense, protect, and interact with the world through connected devices.
