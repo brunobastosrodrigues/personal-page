@@ -42,19 +42,19 @@ author_profile: true
 
 ### Research Projects Experience
 
-#### <span style="color:#446;">PasWITS – Passive Wireless Tracking Intelligence System</span> (2020–2022)  
+#### PasWITS – Passive Wireless Tracking Intelligence System</span> (2020–2022)  
 Funded by Innosuisse, this project developed a privacy-preserving localization system using BLE and Wi-Fi signals. I led the architectural design, coordinated student development, and oversaw prototype testing in collaboration with an industry partner.
 
-#### <span style="color:#446;">H2020 CONCORDIA – Cybersecurity Competence Network</span> (2019–2022)  
+#### H2020 CONCORDIA – Cybersecurity Competence Network</span> (2019–2022)  
 A European effort to build collaborative cybersecurity capacity. I contributed to distributed network defense (Task 1.2), the economics of cybersecurity (Task 4.1), and piloted the DDoS Clearing House for Europe (Task 3.2).
 
-#### <span style="color:#446;">BC4CC – Blockchain-Based Cold Chain Monitoring</span> (2018–2019)  
+#### BC4CC – Blockchain-Based Cold Chain Monitoring</span> (2018–2019)  
 Swiss KTI project focused on pharmaceutical cold chain monitoring. I helped to design the interoperability framework that matches policy constraints to optimal blockchain platforms, ensuring cost-efficient and reliable data logging.
 
-#### <span style="color:#446;">E2C – Energy Efficiency to Clouds</span> (2015–2016)  
+#### E2C – Energy Efficiency to Clouds</span> (2015–2016)  
 Part of the Laboratory of Sustainability in ICT (USP). Developed resource allocation strategies tailored to energy-aware user profiles, and coordinated the research group’s technical activities.
 
-#### <span style="color:#446;">SOS – Sustainability-Oriented SDN Policies</span> (2014–2015)  
+#### SOS – Sustainability-Oriented SDN Policies</span> (2014–2015)  
 Developed an SDN-based control system for energy-efficient networking. This included dynamic policy refinement and deploying sustainable operational strategies for data center infrastructure.
 
 ---
