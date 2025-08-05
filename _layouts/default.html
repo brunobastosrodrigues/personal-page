@@ -26,6 +26,20 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+  
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const anchors = document.querySelectorAll("a[href^='http']");
+        anchors.forEach(anchor => {
+          // Only apply if the link goes to another domain
+          if (!anchor.href.includes(window.location.hostname)) {
+            anchor.setAttribute("target", "_blank");
+            anchor.setAttribute("rel", "noopener");
+          }
+        });
+      });
+    </script>
 
+    
   </body>
 </html>
