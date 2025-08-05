@@ -13,13 +13,20 @@ redirect_from:
 ### Affiliation
 I am a *tenure-track Assistant Professor for Embedded Sensing Systems and Industrial Networks* at the Institute of Computer Science in Vorarlberg [(ICV)](https://icv.unisg.ch/), School of Computer Science [(SCS)](https://www.unisg.ch/de/universitaet/schools/computer-science/), University of St. Gallen [(HSG)](https://www.unisg.ch/en/), Switzerland.
 
-### Research Focus
+### Research
 My research and teaching bridge theory and practice in IoT, wireless sensor networks, and network security—focusing on how we sense, protect, and interact with the world through connected devices.
 
-<div style="background:#f5f8fa; border-left: 4px solid #99b; padding:0.7em 1.3em; margin:1.5em 0;">
+<div style="
+  background-color: #f5f8fa;
+  border-left: 4px solid #99b;
+  padding: 0.7em 1.3em;
+  margin: 1.5em 0;
+  color: #111;
+" class="night-friendly-box">
   <strong>Research focus:</strong>
   Secure and privacy-preserving sensing, passive tracking, and multi-modal data fusion in cyber-physical systems for smart environments, logistics, and healthcare.
 </div>
+
 
 ### Short bio
 Before joining HSG, I received my doctoral degree from the University of Zurich in 2020, where I also worked as a postdoctoral researcher until 2024. My PhD work focused on collaborative signaling systems to counter Distributed Denial-of-Service (DDoS) attacks, while my postdoctoral [research](https://www.alexandria.unisg.ch/handle/20.500.14171/123223) explored passive tracking and tracing using radio signals and assessing their impact on privacy.

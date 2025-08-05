@@ -40,3 +40,11 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+@media (prefers-color-scheme: dark) {
+  .night-friendly-box {
+    background-color: #1f1f1f !important;
+    color: #eee !important;
+    border-left-color: #66a !important;
+  }
+}
