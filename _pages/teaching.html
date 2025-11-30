@@ -5,45 +5,152 @@ permalink: /teaching/
 author_profile: true
 ---
 
-<ul style="margin-top:1.5em; margin-bottom:2em;">
+<style>
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 2em;
+  }
 
-  <li style="margin-bottom:1.5em;">
-    <strong>Fundamentals of Computer Science</strong>
-    <span style="margin-left:8px;">BIA – Fall term</span><br>
-    Undergraduate elective course, University of St. Gallen (HSG)<br>
-    Introduction to the core concepts of computer science and modern programming for International Affairs students, with hands-on algorithmic problem-solving (4 ECTS). <br>
-    <a href="https://courses.unisg.ch/event/events/by-term/4d90fc2e-5321-473f-84d5-498a70062b9d/14867406" target="_blank" style="font-size:0.95em;">Syllabus&nbsp;&#8599;</a>
-  </li>
+  .course-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
 
-  <li style="margin-bottom:1.5em;">
-    <strong>Embedded Sensing Systems</strong>
-    <span style="margin-left:8px;">BCS – Spring term</span><br>
-    Undergraduate elective course, University of St. Gallen (HSG)<br>
-    Project-driven exploration of embedded sensors, from theory to prototype, including real-world data acquisition, wireless communication, and security (3 ECTS).<br>
-    <a href="https://courses.unisg.ch/event/events/by-term/578663a7-e4fc-4b04-8ed9-0d43ef1e9d46/14794773" target="_blank" style="font-size:0.95em;">Syllabus&nbsp;&#8599;</a>
-  </li>
+  /* Dark mode support (if your theme supports it) */
+  @media (prefers-color-scheme: dark) {
+    .course-card {
+      background: #252a34; /* Dark card background */
+      border-color: #333;
+    }
+  }
 
-  <li style="margin-bottom:1.5em;">
-    <strong>Computer Networks</strong>
-    <span style="margin-left:8px;">BCS – Spring term</span><br>
-    Undergraduate mandatory course, University of St. Gallen (HSG), co-taught with Simon Mayer<br>
-    Essential principles of computer networking, including the Internet architecture, protocols, and hands-on labs for future engineers (6 ECTS).<br>
-    <a href="https://courses.unisg.ch/event/events/by-term/578663a7-e4fc-4b04-8ed9-0d43ef1e9d46/14690744" target="_blank" style="font-size:0.95em;">Syllabus&nbsp;&#8599;</a>
-  </li>
+  .course-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-color: #aaa;
+  }
 
-  <li style="margin-bottom:1.5em;">
-    <strong>Network and IoT Security</strong>
-    <span style="margin-left:8px;">BSc – Fall term (2023)</span><br>
-    Undergraduate, OST (Ostschweizer Fachhochschule)<br>
-    Lectures and hands-on modules on IoT security, protocols, and attack mitigation for next-generation networked systems (4 ECTS).
-  </li>
+  .course-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #333; /* Default text color */
+  }
+  
+  /* Ensure title is readable in dark mode */
+  @media (prefers-color-scheme: dark) {
+    .course-title { color: #f2f3f3; }
+  }
 
-  <li>
-    <strong>Computer Network Security Principles</strong>
-    <span style="margin-left:8px;">MSc – Fall term (2022, 2023, 2024)</span><br>
-    Graduate, University of Zürich (CSG)<br>
-    Advanced course for master’s students: deep dive into network security concepts, attacks, and real-world defense strategies (6 ECTS).<br>
-    <a href="https://www.csg.uzh.ch/en/teaching/HS24/CNSP.html" target="_blank" style="font-size:0.95em;">More info&nbsp;&#8599;</a>
-  </li>
+  .course-meta {
+    font-size: 0.85em;
+    color: #666;
+    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
 
-</ul>
+  .badge {
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+  
+  .badge-uni { background-color: #e3f2fd; color: #1565c0; } /* Blue for Uni */
+  .badge-ects { background-color: #e8f5e9; color: #2e7d32; } /* Green for ECTS */
+
+  .course-desc {
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+  }
+
+  .course-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff; /* Primary link color */
+    font-size: 0.9em;
+  }
+  
+  .course-link:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div class="course-grid">
+
+  <div class="course-card">
+    <div class="course-title">Fundamentals of Computer Science</div>
+    <div class="course-meta">
+      <span class="badge badge-uni">HSG</span>
+      <span class="badge">BIA – Fall</span>
+      <span class="badge badge-ects">4 ECTS</span>
+    </div>
+    <div class="course-desc">
+      Introduction to core CS concepts and modern programming for International Affairs students, focusing on algorithmic problem-solving.
+    </div>
+    <a href="https://courses.unisg.ch/event/events/by-term/4d90fc2e-5321-473f-84d5-498a70062b9d/14867406" target="_blank" class="course-link">View Syllabus &rarr;</a>
+  </div>
+
+  <div class="course-card">
+    <div class="course-title">Embedded Sensing Systems</div>
+    <div class="course-meta">
+      <span class="badge badge-uni">HSG</span>
+      <span class="badge">BCS – Spring</span>
+      <span class="badge badge-ects">3 ECTS</span>
+    </div>
+    <div class="course-desc">
+      Project-driven exploration of embedded sensors, covering real-world data acquisition, wireless communication, and security prototypes.
+    </div>
+    <a href="https://courses.unisg.ch/event/events/by-term/578663a7-e4fc-4b04-8ed9-0d43ef1e9d46/14794773" target="_blank" class="course-link">View Syllabus &rarr;</a>
+  </div>
+
+  <div class="course-card">
+    <div class="course-title">Computer Networks</div>
+    <div class="course-meta">
+      <span class="badge badge-uni">HSG</span>
+      <span class="badge">BCS – Spring</span>
+      <span class="badge badge-ects">6 ECTS</span>
+    </div>
+    <div class="course-desc">
+      Essential principles of computer networking, including Internet architecture, protocols, and hands-on labs. Co-taught with Simon Mayer.
+    </div>
+    <a href="https://courses.unisg.ch/event/events/by-term/578663a7-e4fc-4b04-8ed9-0d43ef1e9d46/14690744" target="_blank" class="course-link">View Syllabus &rarr;</a>
+  </div>
+
+  <div class="course-card">
+    <div class="course-title">Network and IoT Security</div>
+    <div class="course-meta">
+      <span class="badge badge-uni">OST</span>
+      <span class="badge">BSc – Fall '23</span>
+      <span class="badge badge-ects">4 ECTS</span>
+    </div>
+    <div class="course-desc">
+      Lectures and hands-on modules on IoT security, protocols, and attack mitigation for next-generation networked systems.
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-title">Computer Network Security Principles</div>
+    <div class="course-meta">
+      <span class="badge badge-uni">UZH</span>
+      <span class="badge">MSc – Fall</span>
+      <span class="badge badge-ects">6 ECTS</span>
+    </div>
+    <div class="course-desc">
+      Advanced course for master’s students: deep dive into network security concepts, attacks, and real-world defense strategies.
+    </div>
+    <a href="https://www.csg.uzh.ch/en/teaching/HS24/CNSP.html" target="_blank" class="course-link">More Info &rarr;</a>
+  </div>
+
+</div>
