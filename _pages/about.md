@@ -10,7 +10,7 @@ redirect_from:
 <style>
   /* --- General Text Styling --- */
   .profile-text {
-    font-size: 0.95em; /* Slightly smaller font as requested */
+    font-size: 0.95em;
     line-height: 1.6;
     color: #333;
   }
@@ -36,44 +36,14 @@ redirect_from:
     padding: 1em 1.2em;
     margin: 2em 0;
     color: #444;
-    font-size: 0.9em; /* Compact font for the box */
+    font-size: 0.9em;
     border-radius: 4px;
-  }
-
-  /* --- News Section --- */
-  .news-container {
-    margin-top: 3em;
-    margin-bottom: 3em;
-  }
-  
-  .news-header {
-    border-bottom: 2px solid #eee;
-    padding-bottom: 8px;
-    margin-bottom: 15px;
-    font-size: 1.2em;
-    color: #222;
-  }
-
-  .news-item {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 10px;
-    font-size: 0.9em; /* Smaller font for news */
-    line-height: 1.5;
-  }
-
-  .news-date {
-    font-weight: bold;
-    color: #555;
-    min-width: 80px;
   }
 
   /* --- Dark Mode Adjustments --- */
   @media (prefers-color-scheme: dark) {
-    .profile-text, .focus-box, .news-item { color: #ccc; }
+    .profile-text, .focus-box { color: #ccc; }
     .focus-box { background-color: #252a34; border-color: #007bff; }
-    .news-date { color: #aaa; }
-    .news-header { color: #f0f0f0; border-color: #444; }
   }
 </style>
 
@@ -98,31 +68,5 @@ redirect_from:
   <p>
     Prior to my PhD, I was a researcher at the <strong>University of São Paulo (USP)</strong>, Brazil, collaborating with <strong>Ericsson Research</strong> (2013–2016). My work there centered on <strong>Software-Defined Networking (SDN)</strong> and resource orchestration in cloud environments. I hold an MSc in Computer Science from USP, where I optimized energy efficiency in virtualized networks, and a BSc from UDESC, focusing on cloud security and large-scale distributed systems analysis.
   </p>
-
-  <div class="news-container">
-    <h3 class="news-header">📢 Latest Updates</h3>
-    
-    <div class="news-item">
-      <div class="news-date">Oct 2024</div>
-      <div>
-        Paper accepted at <strong>IFIP/IEEE CNSM 2024</strong>: <em>"Big Brother is Watching You: Non-Intrusive ZigBee User Profiling."</em> <a href="/publications/">[Read more]</a>
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">Sep 2024</div>
-      <div>
-        Joined the <strong>University of St. Gallen (HSG)</strong> as Assistant Professor.
-      </div>
-    </div>
-    
-     <div class="news-item">
-      <div class="news-date">May 2024</div>
-      <div>
-        Invited talk at <strong>University of Zürich (CSG)</strong> on privacy risks in passive RF sensing systems.
-      </div>
-    </div>
-
-  </div>
 
 </div>
