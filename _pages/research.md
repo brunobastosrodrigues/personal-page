@@ -138,23 +138,22 @@ author_profile: true
 </style>
 
 <div class="research-intro">
-  My research investigates secure and privacy-aware sensing systems in the Internet of Things (IoT). 
-  I focus on how we perceive, interpret, and act on physical world information through digital systems, 
-  with a particular interest in <strong>passive sensing</strong>, <strong>multi-modal data fusion</strong>, 
-  and <strong>cyber-physical security</strong>.
+  My research lies at the intersection of <strong>Computer Networks</strong>, <strong>Distributed Systems</strong>, and <strong>Sensing</strong>. 
+  I investigate how to build resilient digital infrastructures that can interpret the physical world while maintaining security and trust.
+  Key focus areas include <strong>Network Defense (DDoS)</strong>, <strong>Blockchain-based Architectures</strong>, and <strong>Passive Wireless Intelligence</strong>.
 </div>
 
 <div class="lab-gallery">
   <figure class="lab-figure">
     <img src="/images/img-setup.jpg" alt="Passive wireless sensor setup">
     <figcaption class="lab-caption">
-      Passive wireless sensor setup for real-world data collection.
+      Deploying wireless sensing nodes for real-time network traffic and environmental analysis.
     </figcaption>
   </figure>
   <figure class="lab-figure">
     <img src="/images/img-heatmap.png" alt="Heatmap of occupancy">
     <figcaption class="lab-caption">
-      Heatmap visualizing occupancy patterns from fused sensor data.
+      Visualizing signal propagation and occupancy data derived from distributed sensor fusion.
     </figcaption>
   </figure>
 </div>
@@ -163,30 +162,30 @@ author_profile: true
 <div class="theme-grid">
   
   <div class="theme-card">
-    <div class="theme-header">Passive Sensing & Tracking</div>
+    <div class="theme-header">Network Security & Resilience</div>
     <div class="theme-text">
-      Leveraging BLE, Wi-Fi, ZigBee, and LiDAR signals to unobtrusively track people and assets without active cooperation. Used for occupancy analytics and crowd flow.
+      Developing collaborative defense mechanisms against large-scale network attacks (e.g., DDoS). I focus on distributed signaling and automated mitigation across administrative domains.
     </div>
   </div>
 
   <div class="theme-card">
-    <div class="theme-header">Privacy-Preserving Perception</div>
+    <div class="theme-header">Distributed Systems & Blockchain</div>
     <div class="theme-text">
-      Designing systems that ensure privacy through selective sensing (e.g., depth-only LiDAR), anonymized signal processing, and differential handling of personal data.
+      Designing decentralized architectures for trust management and data integrity. My work leverages Smart Contracts to enforce policies in multi-party logistics and IoT environments.
     </div>
   </div>
 
   <div class="theme-card">
-    <div class="theme-header">Secure IoT Systems</div>
+    <div class="theme-header">Passive Wireless Sensing</div>
     <div class="theme-text">
-      Mitigating cyber threats like DDoS attacks and unauthorized profiling by securing the communication and behavioral footprint of IoT devices.
+      Exploiting standard communication protocols (Wi-Fi, BLE, ZigBee) as "signals of opportunity" to unobtrusively track assets and analyze crowd behavior without active user cooperation.
     </div>
   </div>
 
   <div class="theme-card">
-    <div class="theme-header">Multi-Modal Fusion</div>
+    <div class="theme-header">Cyber-Physical Systems (CPS)</div>
     <div class="theme-text">
-      Combining heterogeneous sensor data (RF, LiDAR, thermal) to enhance robustness, reduce noise, and support contextual awareness in real-world deployments.
+      Integrating multi-modal sensor data (RF, LiDAR, Thermal) into coherent digital twins, ensuring that physical-layer inputs are processed securely within edge computing constraints.
     </div>
   </div>
 
@@ -199,7 +198,7 @@ author_profile: true
     <div class="project-title">PasWITS – Passive Wireless Tracking Intelligence</div>
     <div class="project-meta">2020–2022 | Funded by Innosuisse</div>
     <div class="project-desc">
-      Developed a privacy-preserving localization system using BLE and Wi-Fi signals. I led the architectural design, coordinated student development, and oversaw prototype testing with industry partners.
+      Developed a localization system analyzing Wi-Fi and BLE protocol headers. Led the system architecture for processing high-throughput wireless data streams at the edge.
     </div>
   </div>
 
@@ -207,7 +206,7 @@ author_profile: true
     <div class="project-title">H2020 CONCORDIA – Cybersecurity Network</div>
     <div class="project-meta">2019–2022 | European Commission</div>
     <div class="project-desc">
-      Contributed to distributed network defense (Task 1.2), the economics of cybersecurity, and piloted the DDoS Clearing House for Europe (Task 3.2).
+      Coordinated the <strong>DDoS Clearing House</strong> pilot. Focused on distributed network defense (Task 1.2), enabling cross-border threat intelligence sharing and automated attack mitigation.
     </div>
   </div>
 
@@ -215,7 +214,7 @@ author_profile: true
     <div class="project-title">BC4CC – Blockchain Cold Chain Monitoring</div>
     <div class="project-meta">2018–2019 | Swiss KTI</div>
     <div class="project-desc">
-      Designed an interoperability framework matching policy constraints to optimal blockchain platforms for pharmaceutical logistics.
+      Architected a <strong>Distributed Ledger Technology (DLT)</strong> framework. Addressed interoperability challenges between heterogeneous blockchain platforms to secure pharmaceutical supply chain data.
     </div>
   </div>
 
@@ -223,7 +222,7 @@ author_profile: true
     <div class="project-title">E2C – Energy Efficiency to Clouds</div>
     <div class="project-meta">2015–2016 | Laboratory of Sustainability (USP)</div>
     <div class="project-desc">
-      Developed resource allocation strategies tailored to energy-aware user profiles and coordinated technical activities.
+      Researched resource allocation algorithms for cloud infrastructure, focusing on optimizing virtual machine placement to reduce data center energy footprint.
     </div>
   </div>
 
@@ -231,13 +230,13 @@ author_profile: true
     <div class="project-title">SOS – Sustainability-Oriented SDN Policies</div>
     <div class="project-meta">2014–2015</div>
     <div class="project-desc">
-      Developed an SDN-based control system for energy-efficient networking, including dynamic policy refinement for data center infrastructure.
+      Developed a control plane for <strong>Software-Defined Networking (SDN)</strong>. Implemented dynamic flow-rule policies to optimize network traffic routing based on real-time energy metrics.
     </div>
   </div>
 
 </div>
 
 <div style="margin-top:3em; text-align: center; padding: 20px; background: #f9f9f9; border-radius: 8px;">
-  <strong>Interested in the results?</strong> <br>
+  <strong>Interested in the details?</strong> <br>
   Explore the <a href="/publications/" style="text-decoration:none; color: #007bff; font-weight:bold;">Publications Page &rarr;</a>
 </div>
