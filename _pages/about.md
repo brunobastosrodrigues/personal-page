@@ -104,6 +104,7 @@ redirect_from:
       <span class="topic-tag">Distributed Systems</span>
       <span class="topic-tag">Passive Sensing</span>
       <span class="topic-tag">DDoS Defense</span>
+      <span class="topic-tag">Wireless Communication</span>
       <span class="topic-tag">Cyber-Physical Systems</span>
       <span class="topic-tag">IoT Security</span>
       <span class="topic-tag">Privacy Preservation</span>
