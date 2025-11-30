@@ -5,62 +5,255 @@ permalink: /publications/
 author_profile: true
 ---
 
-<h2>Selected Publications</h2>
-<ul style="margin-top: 0.5em; margin-bottom: 2em; padding-left: 1.2em;">
+<style>
+  /* Container for the whole list */
+  .pub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 2em;
+  }
 
-  <li>
-    <strong>Rodrigues, B.</strong>, Scheid, E. J., Willems, J., Tornow, M., Müller, K. O. E., & Stiller, B. (2022).<br>
-    <em><a href="https://doi.org/10.1109/JSEN.2022.3196433" target="_blank">Fusion Data Tracking System (FITS)</a>.</em> IEEE Sensors Journal, 22(19), 19060–19072.<br>
-    <span style="font-size:0.93em; color: #666;">
-      Multi-layer sensor fusion system that enables robust, privacy-aware tracking by combining BLE, Wi-Fi, and passive RF signals—applied in smart environments and logistics.
-    </span>
-  </li>
+  /* Individual Publication Item */
+  .pub-item {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #e0e0e0;
+    padding-left: 20px;
+    transition: border-color 0.3s;
+  }
 
-  <li>
-    <strong>Müller, K. O. E.</strong>, Datsomor, D., Schumm, D., <strong>Rodrigues, B.</strong>, & Stiller, B. (2024).<br>
-    <em><a href="https://doi.org/10.23919/CNSM59724.2024.10344645" target="_blank">Big Brother is Watching You: Non-Intrusive ZigBee User Profiling</a>.</em> IFIP/IEEE CNSM 2024.<br>
-    <span style="font-size:0.93em; color: #666;">
-      Demonstrates how encrypted ZigBee sensor traffic can be passively analyzed to infer human presence and routines, highlighting privacy risks in IoT environments.
-    </span>
-  </li>
+  .pub-item:hover {
+    border-left-color: #007bff; /* Blue highlight on hover */
+  }
 
-  <li>
-    <strong>Rodrigues, B.</strong>, L. Muller, M. F. Franco, E. J. Scheid, C. Killer, & B. Stiller (2021).<br>
-    <em><a href="https://ieeexplore.ieee.org/abstract/document/9524945" target="_blank">LaFlector: a Privacy-preserving LiDAR-based Approach for Accurate Indoor Tracking</a>.</em> IEEE LCN 2021.<br>
-    <span style="font-size:0.93em; color: #666;">
-      Introduces a novel indoor tracking method using LiDAR and sensor fusion, achieving high localization accuracy while mitigating privacy risks by using depth-only data.
-    </span>
-  </li>
+  /* Title of the paper */
+  .pub-title {
+    font-size: 1.15em;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 5px;
+    line-height: 1.3;
+  }
 
-  <li>
-    <strong>Ribeiro, R. H.</strong>, Killer, C., Baumann, L., Figueredo Franco, M., Scheid, E. J., <strong>Rodrigues, B.</strong>, & Stiller, B. (2021).<br>
-    <em>ASIMOV: a Fully Passive WiFi Device Tracking.</em> IFIP Networking 2021.<br>
-    <span style="font-size:0.93em; color: #666;">
-      Presents a passive Wi-Fi sensing framework for real-time device tracking without active probing, enabling scalable people counting in public spaces.
-    </span>
-  </li>
+  .pub-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .pub-title a:hover {
+    color: #007bff;
+  }
 
-  <li>
-    <strong>Rodrigues, B.</strong>, C. Halter, M. Franco, E. J. Scheid, C. Killer, & B. Stiller (2021).<br>
-    <em><a href="https://ieeexplore.ieee.org/document/9463990" target="_blank">BluePIL: a Bluetooth-based PassIve Localization Method</a>.</em> IEEE/IFIP IM 2021.<br>
-    <span style="font-size:0.93em; color: #666;">
-      Proposes a passive Bluetooth-based localization technique, enabling fine-grained people tracking in indoor environments without user cooperation.
-    </span>
-  </li>
+  /* Authors list */
+  .pub-authors {
+    font-size: 0.95em;
+    color: #444;
+    margin-bottom: 5px;
+  }
 
-</ul>
+  /* Venue and Year line */
+  .pub-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
 
-<hr>
+  /* Badges for Journal vs Conf */
+  .pub-badge {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+  
+  .badge-journal { background-color: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
+  .badge-conf { background-color: #e3f2fd; color: #1565c0; border: 1px solid #bbdefb; }
 
-<h2>External Profiles</h2>
+  /* Description/Abstract snippet */
+  .pub-desc {
+    font-size: 0.9em;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
 
-<div class="wordwrap" style="margin-bottom:1.5em;">
-  For the <em>most up-to-date and comprehensive</em> list of my research outputs, please visit my external profiles:
-  &bull; <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>
-  &bull; <a href="https://orcid.org/0000-0003-3277-3799" target="_blank">ORCID</a>
-  &bull; <a href="https://www.alexandria.unisg.ch/entities/person/Bruno_Rodrigues" target="_blank">Alexandria (University of St. Gallen)</a><br>
-  <span style="font-size: 0.95em; color: #666;">(This page is intentionally low-maintenance; external profiles are automatically kept up to date.)</span>
+  /* Action Buttons (DOI, PDF, etc) */
+  .pub-actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .pub-btn {
+    font-size: 0.8em;
+    padding: 4px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #555;
+    background: #fff;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+
+  .pub-btn:hover {
+    background: #f7f7f7;
+    border-color: #bbb;
+    color: #333;
+    text-decoration: none;
+  }
+
+  /* External Profiles Box */
+  .profiles-box {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .profiles-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-link {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  /* Dark Mode Adjustments */
+  @media (prefers-color-scheme: dark) {
+    .pub-title { color: #f0f0f0; }
+    .pub-authors { color: #ccc; }
+    .pub-desc { color: #aaa; }
+    .profiles-box { background-color: #252a34; border-color: #333; }
+    .pub-btn { background-color: #252a34; border-color: #444; color: #ccc; }
+    .pub-btn:hover { background-color: #333; }
+  }
+</style>
+
+<div class="pub-list">
+
+  <div class="pub-item">
+    <div class="pub-title">
+      <a href="https://doi.org/10.1109/JSEN.2022.3196433" target="_blank">Fusion Data Tracking System (FITS)</a>
+    </div>
+    <div class="pub-authors">
+      <strong>Rodrigues, B.</strong>, Scheid, E. J., Willems, J., Tornow, M., Müller, K. O. E., & Stiller, B.
+    </div>
+    <div class="pub-meta">
+      <span class="pub-badge badge-journal">Journal</span>
+      <span>IEEE Sensors Journal (2022)</span>
+    </div>
+    <div class="pub-desc">
+      Multi-layer sensor fusion system enabling robust, privacy-aware tracking by combining BLE, Wi-Fi, and passive RF signals.
+    </div>
+    <div class="pub-actions">
+      <a href="https://doi.org/10.1109/JSEN.2022.3196433" target="_blank" class="pub-btn">DOI / PDF</a>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-title">
+      <a href="https://doi.org/10.23919/CNSM59724.2024.10344645" target="_blank">Big Brother is Watching You: Non-Intrusive ZigBee User Profiling</a>
+    </div>
+    <div class="pub-authors">
+      Müller, K. O. E., Datsomor, D., Schumm, D., <strong>Rodrigues, B.</strong>, & Stiller, B.
+    </div>
+    <div class="pub-meta">
+      <span class="pub-badge badge-conf">Conf</span>
+      <span>IFIP/IEEE CNSM (2024)</span>
+    </div>
+    <div class="pub-desc">
+      Demonstrates how encrypted ZigBee sensor traffic can be passively analyzed to infer human presence and routines.
+    </div>
+    <div class="pub-actions">
+      <a href="https://doi.org/10.23919/CNSM59724.2024.10344645" target="_blank" class="pub-btn">DOI / PDF</a>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-title">
+      <a href="https://ieeexplore.ieee.org/abstract/document/9524945" target="_blank">LaFlector: a Privacy-preserving LiDAR-based Approach</a>
+    </div>
+    <div class="pub-authors">
+      <strong>Rodrigues, B.</strong>, Muller, L., Franco, M. F., Scheid, E. J., Killer, C., & Stiller, B.
+    </div>
+    <div class="pub-meta">
+      <span class="pub-badge badge-conf">Conf</span>
+      <span>IEEE LCN (2021)</span>
+    </div>
+    <div class="pub-desc">
+      Novel indoor tracking method using LiDAR and sensor fusion, achieving high localization accuracy with depth-only data.
+    </div>
+    <div class="pub-actions">
+      <a href="https://ieeexplore.ieee.org/abstract/document/9524945" target="_blank" class="pub-btn">DOI / PDF</a>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-title">
+      ASIMOV: a Fully Passive WiFi Device Tracking
+    </div>
+    <div class="pub-authors">
+      Ribeiro, R. H., Killer, C., Baumann, L., Franco, M. F., Scheid, E. J., <strong>Rodrigues, B.</strong>, & Stiller, B.
+    </div>
+    <div class="pub-meta">
+      <span class="pub-badge badge-conf">Conf</span>
+      <span>IFIP Networking (2021)</span>
+    </div>
+    <div class="pub-desc">
+      Passive Wi-Fi sensing framework for real-time device tracking without active probing.
+    </div>
+    </div>
+
+  <div class="pub-item">
+    <div class="pub-title">
+      <a href="https://ieeexplore.ieee.org/document/9463990" target="_blank">BluePIL: a Bluetooth-based PassIve Localization Method</a>
+    </div>
+    <div class="pub-authors">
+      <strong>Rodrigues, B.</strong>, Halter, C., Franco, M., Scheid, E. J., Killer, C., & Stiller, B.
+    </div>
+    <div class="pub-meta">
+      <span class="pub-badge badge-conf">Conf</span>
+      <span>IEEE/IFIP IM (2021)</span>
+    </div>
+    <div class="pub-desc">
+      Passive Bluetooth-based localization technique enabling fine-grained people tracking without user cooperation.
+    </div>
+    <div class="pub-actions">
+      <a href="https://ieeexplore.ieee.org/document/9463990" target="_blank" class="pub-btn">DOI / PDF</a>
+    </div>
+  </div>
+
 </div>
 
-
-
+<div class="profiles-box">
+  <h3 style="margin-top:0;">Detailed Publication List</h3>
+  <p style="margin-bottom:1em; font-size:0.95em;">
+    This selected list highlights recent work. For a comprehensive record, citations, and metrics, please visit:
+  </p>
+  <div class="profiles-links">
+    <a href="https://scholar.google.com/citations?user=V55fIyEAAAAJ&hl=pt-PT" target="_blank" class="pub-btn">
+      <i class="fas fa-graduation-cap"></i> Google Scholar
+    </a>
+    <a href="https://orcid.org/0000-0003-3277-3799" target="_blank" class="pub-btn">
+      <i class="fab fa-orcid"></i> ORCID
+    </a>
+    <a href="https://www.alexandria.unisg.ch/entities/person/Bruno_Rodrigues" target="_blank" class="pub-btn">
+      <i class="fas fa-university"></i> Alexandria (HSG)
+    </a>
+  </div>
+</div>
