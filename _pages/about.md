@@ -94,7 +94,7 @@ redirect_from:
   <div style="margin-bottom: 2em;">
     I am a Tenure-Track Assistant Professor for Embedded Sensing Systems and Industrial Networks at the Institute of Computer Science in Vorarlberg <a href="https://icv.unisg.ch/" target="_blank">(ICV)</a>, School of Computer Science <a href="https://www.unisg.ch/de/universitaet/schools/computer-science/" target="_blank">(SCS)</a>, University of St. Gallen <a href="https://www.unisg.ch/en/" target="_blank">(HSG)</a>.
     <br><br>
-    My work bridges the gap between Network Security, Distributed Systems, and the Physical World. I investigate how to build resilient digital infrastructures that can securely sense, interpret, and interact with their environments.
+    My work bridges the gap between Network Security, Distributed Systems, and the Physical World. I investigate how to design systems that can securely sense, interpret, and interact with their environments.
   </div>
 
   <div class="topic-container">
