@@ -98,7 +98,7 @@ redirect_from:
   </div>
 
   <div class="topic-container">
-    <span class="topic-header">Research Ecosystem</span>
+    <span class="topic-header">Research Areas</span>
     <div class="topic-cloud">
       <span class="topic-tag">Network Security</span>
       <span class="topic-tag">Distributed Systems</span>
