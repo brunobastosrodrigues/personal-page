@@ -2,7 +2,7 @@
 
 This is the source code for the personal academic website of **Bruno Rodrigues**, Assistant Professor at the University of St. Gallen (HSG).
 
-🌐 **Live Website:** [https://brunobastosrodrigues.github.io](https://brunobastosrodrigues.github.io)
+🌐 **Live Website:** bruno-br.com
 
 ## About
 This website highlights research in **Embedded Sensing Systems**, **Industrial Networks**, and **Cyber-Physical Security**. It includes publication lists, teaching materials, and project portfolios.
